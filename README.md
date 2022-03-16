@@ -70,7 +70,7 @@ Shifts in the start/peak/end dates can be indicators of the snowpack's response 
 
 Develop a time series at each station for start, peak, and end of the annual (water year) snowpack. Calculate the linear regression for each time series and observe any trends in the datasets.  
 
-#### Landsat Imagery NOTEBOOK
+#### Landsat Imagery [/final-project/L8_workbook](https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/final-project/L8_workbook.ipynb)
 Landsat imagery allows for spatial analysis of glacial snow and ice cover whereas the SNOTEL stations capture point data measurements at locations/elevations that vary significantly to the location/elevation of glaciers on Mt. Baker.
 
 <img align="center" src="https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/rgb_2021.jpg" width="70%" height="70%">
