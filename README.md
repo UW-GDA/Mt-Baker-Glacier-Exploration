@@ -34,10 +34,13 @@ Evaluate glacial trends over time both quantitatively and qualitatively, and inv
 
 * Pandas
 * Geopandas
+* Shapely
 * Numpy
 * Scipy
 * Matplotlib
 * Rasterio  
+* Pystac_client & planetary_computer (Landsat download)
+
 
 ## Data Downloads & Initial Set Up
 
@@ -48,6 +51,7 @@ Download daily snow water equivalent measurements from the four SNOTEL stations 
 Use dates from SNOTEL analysis to narrow annual search window and download cloud-free imagery for the start, peak, and end of the annual snowpack. *Availability of cloud-free imagery given specific dates was the most limiting factor in this analysis.*  
 
 #### Randolph Glacier Inventory (RGI) [/final-project/rgi_download.ipynb](https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/final-project/LS8_download.ipynb) 
+Source: http://www.glims.org/RGI/  
 Download the WesternCanadaUS.shp shapefile from RGI and establish an area of interest coordinate box surrounding the extents of Mt. Baker.  
 Filter for all named glaciers intersecting the area of interest. This yeilds 14 glaciers (the Talum Glaciers are one polygon). 
 Save final geodataframe as a GeoJSON for future analysis.
@@ -107,5 +111,6 @@ Clip the snow mask to the RGI glacier geometry and calculate the snow covered ar
 Devlop user-friendly workflows that can deliver a standalone presentation of results.  
 * Current workflow lacks documentation/instruction and is best presented by exporting results to a new notebook or to an external platform such as powerpoint  
 * Landsat Analysis notebooks are inefficient when applied to larger volumes of imagery
+
 
 
