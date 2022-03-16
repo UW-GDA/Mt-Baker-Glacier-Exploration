@@ -6,7 +6,7 @@ Workflow utilizing SNOTEL data and Landsat imagery to quantitatively and qualita
 
 
 ## Background Information
-<img align="right" src="https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/final-project/snotel_rgi.jpg" width="40%" height="40%">
+<img align="right" src="https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/final-project/snotel_rgi.jpg" width="45%" height="45%">
 
 Mount Baker is a 10,781 ft glacier-covered stratovolcano in Washington’s North Cascades with 1.79 km3 of volumetric snow and ice cover. Mount Baker has sixteen named glaciers, the largest being the Coleman Glacier with a surface area of 5.2 km2. For this workflow, the Talum Glaciers are considered to be one glacier.
 
@@ -74,15 +74,15 @@ Landsat imagery allows for spatial analysis of glacial snow and ice cover wherea
 
 Compile and process start/peak/end date imagery for each water year within the scope of analysis.
 
-<img align="center" src="https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/rgb_2021.jpg" width="70%" height="70%">
+<img align="center" src="https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/rgb_2021.jpg" width="75%" height="75%">
 
 Develop NDSI plots and create a 'snow mask' to isolate snow covered area.
 
-<img align="center" src="https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/glacier_analysis_2021.jpg" width="70%" height="70%">
+<img align="center" src="https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/glacier_analysis_2021.jpg" width="75%" height="75%">
 
 Clip the snow mask to the RGI glacier geometry and calculate the snow covered area.
 
-<img align="center" src="https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/final-project/mask_2021.jpg" width="70%" height="70%">
+<img align="center" src="https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/final-project/mask_2021.jpg" width="75%" height="75%">
 
 
 ## Future Work
