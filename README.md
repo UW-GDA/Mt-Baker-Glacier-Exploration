@@ -1,7 +1,7 @@
-# When-Glaciers-Were-Cool
+# Mt. Baker Glacier Expedition
 
 #### Sydney Carr, UW GDA W2022
-Workflow utilizing SNOTEL data and Landsat imagery to quantitatively and qualitatively investigate changes in snow and ice cover on Mt. Baker over time.
+Workflow utilizing SNOTEL data and Landsat imagery to quantitatively and qualitatively explore changes in snow and ice cover on Mt. Baker glaciers over time.
 
 
 
@@ -22,13 +22,13 @@ Four SNOTEL stations surround Mt. Baker:
 
 ## Objectives
 
-To evaluate glacial trends over time both quantitatively and qualitatively, and to explore the relationship between SNOTEL station data and glacial mass on Mt. Baker.  
+Evaluate glacial trends over time both quantitatively and qualitatively, and investigate the relationship between SNOTEL station data and Landsat spatial data specific to measuring glacier mass on Mt. Baker. 
   
-Use Landsat imagery to visualize the glacial accumulation zone and ablation zone, and establish an equilibrium line.   
-Is the equilibrium line advancing or receding over time?
-
-Use SNOTEL datasets from the four stations at Mount Baker to build an annual snow accumulation and snowmelt timeseries.  
-Is this consistent with accumulation and ablation observed from Landsat imagery? 
+* Use SNOTEL station data from the four stations surrounding Mt. Baker to develop descriptive time series for the annual snowpack.
+  * Are there any trends in this data?
+* Use Landsat imagery to spatially determine the glacial accumulation and ablation zones, and establish an equilibrium line.   
+  * Is the equilibrium line advancing or receding over time?
+* Can a relationship be established between the results of the SNOTEL and Landsat analyses?
 
 
 ## Tools/Packages
@@ -66,12 +66,14 @@ Caluclate the water year and day of water year for each data point and determine
 * Peak: Day of maximum SWE  
 * End: First day of 0" SWE during melt period
 
-Shifts in the start/peak/end dates can be indicators of the snowpack's response to climate change. This can be used to infer trends in the annual snowpack such as shorter snow season, earlier melt period and shorter accumulation period, or changes in melt period and melt rate. 
+Shifts in the start/peak/end dates can be indicators of the snowpack's response to climate change. This can be used to infer trends in the annual snowpack such as a shorter snow season, earlier melt period and shorter accumulation period, or changes in melt period and melt rate. 
 
 Develop a time series at each station for start, peak, and end of the annual (water year) snowpack. Calculate the linear regression for each time series and observe any trends in the datasets.  
 
 #### Landsat Imagery [/final-project/L8_workbook](https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/final-project/L8_workbook.ipynb)
 Landsat imagery allows for spatial analysis of glacial snow and ice cover whereas the SNOTEL stations capture point data measurements at locations/elevations that vary significantly to the location/elevation of glaciers on Mt. Baker.
+
+Compile and process start/peak/end date imagery for each water year within the scope of analysis.
 
 <img align="center" src="https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/rgb_2021.jpg" width="70%" height="70%">
 
@@ -88,7 +90,8 @@ Clip the snow mask to the RGI glacier geometry and calculate the snow covered ar
 
 ### Glacier Equilibrium Line & Snow Covered Area
 *Was not originally planned for 'future' work...'*
-* Compile a longer range of annual imagery for date ranging from pre-'start of snowpack' date (summer) to 'start of snowpack' date to capture glacial mass (ice versus seasonal snowpack) 
+* Compile a larger dataset of annual imagery for dates ranging from pre-'start of snowpack' date (summer) to 'start of snowpack' date to capture glacial mass (ice versus seasonal snowpack) 
+  * The date range is to account for limited Landsat data availability 
 * Clip the NDSI/snow mask plots to the RGI glacier geometry and calculate snow covered area
 * Develop a time series to evaluate trends (expansion or recession) over time 
  
@@ -98,7 +101,7 @@ Clip the snow mask to the RGI glacier geometry and calculate the snow covered ar
 * Determine an appropriate 'buffer' about the RGI glacier geometry to capture approximate extents of the accumulation and ablation zones. Use new geometry to clip NDSI/snow mask plots and measure loss of snow covered area over time to calculate the accumulation rate (start of SWE to peak SWE) and melt rate (peak SWE to end of SWE, peak SWE to late summer/early fall)
 * Calculate the accumulation rate at SNOTEL stations (start of SWE to peak SWE) and melt rate (peak SWE to end of SWE)
 * Compare imagery results to station results 
-* Couple with temperature and precipitation time series 
+* Couple with temperature and precipitation time series from SNOTEL station data
 
 
 ## Future Development
