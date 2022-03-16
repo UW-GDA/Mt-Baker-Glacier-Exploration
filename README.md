@@ -1,4 +1,4 @@
-# Mt. Baker Glacier Expedition
+# Mt. Baker Glacier Exploration
 
 #### Sydney Carr, UW GDA W2022
 Workflow utilizing SNOTEL data and Landsat imagery to quantitatively and qualitatively explore changes in snow and ice cover on Mt. Baker glaciers over time.
