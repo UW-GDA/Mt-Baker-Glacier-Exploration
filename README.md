@@ -91,14 +91,14 @@ Clip the snow mask to the RGI glacier geometry and calculate the snow covered ar
 
 ## Future Work
 
-### Glacier Equilibrium Line & Snow Covered Area
+#### Glacier Equilibrium Line & Snow Covered Area
 *Was not originally planned for 'future' work...'*
 * Compile a larger dataset of annual imagery for dates ranging from pre-'start of snowpack' date (summer) to 'start of snowpack' date to capture glacial mass (ice versus seasonal snowpack) 
   * The date range is to account for limited Landsat data availability 
 * Clip the NDSI/snow mask plots to the RGI glacier geometry and calculate snow covered area
 * Develop a time series to evaluate trends (expansion or recession) over time 
  
-### Accumulation & Melt Period Per Aspect
+#### Accumulation & Melt Period Per Aspect
 * Identify and gorup north versus south facing glaciers and associated SNOTEL stations  
 * Explore Sentinel-2 satellite imagery alternative: 5-day resolution, starts around 2017  
 * Determine an appropriate 'buffer' about the RGI glacier geometry to capture approximate extents of the accumulation and ablation zones. Use new geometry to clip NDSI/snow mask plots and measure loss of snow covered area over time to calculate the accumulation rate (start of SWE to peak SWE) and melt rate (peak SWE to end of SWE, peak SWE to late summer/early fall)
@@ -108,7 +108,7 @@ Clip the snow mask to the RGI glacier geometry and calculate the snow covered ar
 
 
 ## Future Development
-Devlop user-friendly workflows that can deliver a standalone presentation of results.  
+Develop user-friendly workflows that can deliver a standalone presentation of results.  
 * Current workflow lacks documentation/instruction and is best presented by exporting results to a new notebook or to an external platform such as powerpoint  
 * Landsat Analysis notebooks are inefficient when applied to larger volumes of imagery
 
