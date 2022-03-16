@@ -6,7 +6,6 @@ Workflow utilizing SNOTEL data and Landsat imagery to quantitatively and qualita
 
 
 ## Background Information
-
 <img align="right" src="https://github.com/UW-GDA/When-Glaciers-Were-Cool/blob/main/final-project/snotel_rgi.jpg" width="40%" height="40%">
 
 Mount Baker is a 10,781 ft glacier-covered stratovolcano in Washington’s North Cascades with 1.79 km3 of volumetric snow and ice cover. Mount Baker has sixteen named glaciers, the largest being the Coleman Glacier with a surface area of 5.2 km2. For this workflow, the Talum Glaciers are considered to be one glacier.
