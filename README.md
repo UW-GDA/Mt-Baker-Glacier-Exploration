@@ -93,7 +93,7 @@ Clip the snow mask to the RGI glacier geometry and calculate the snow covered ar
 
 #### Glacier Equilibrium Line & Snow Covered Area
 *Was not originally planned for 'future' work...'*
-* Compile a larger dataset of annual imagery for dates ranging from pre-'start of snowpack' date (summer) to 'start of snowpack' date to capture glacial mass (ice versus seasonal snowpack) 
+* Compile a larger database of annual imagery for dates ranging from pre-'start of snowpack' date (summer) to 'start of snowpack' date to capture glacial mass (ice versus seasonal snowpack) 
   * The date range is to account for limited Landsat data availability 
 * Clip the NDSI/snow mask plots to the RGI glacier geometry and calculate snow covered area
 * Develop a time series to evaluate trends (expansion or recession) over time 
